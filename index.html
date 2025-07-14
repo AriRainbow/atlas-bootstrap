@@ -20,9 +20,9 @@
 
   <!-- Header / Navbar -->
     <header>
-      <nav class="navbar navbar-expand-md fixed-top custom-navbar">
+      <nav class="navbar navbar-expand-md fixed-top transparent-navbar">
         <div class="container">
-          <a class="navbar-brand font-weight-bold" href="#">Clay to Cosmos</a>
+          <a class="navbar-brand font-weight-bold" href="#">Ancient Civilizations: From Clay to Cosmos</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                   aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,9 +42,11 @@
   <!-- Hero Section -->
     <section class="hero d-flex align-items-start text-white" style="background-image: url('images/ziggurat-moonlight.jpeg'); background-size: cover; background-position: center; height: 100vh;">
       <div class="container">
+        <!--
         <h1 class="display-4 font-weight-bold" style="font-family: 'Julius Sans One', sans-serif;">
           Ancient Civilizations:<br>From Clay to Cosmos
         </h1>
+        -->
       </div>
     </section>
 
@@ -60,6 +62,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
             crossorigin="anonymous"></script>
+
+    <script>
+      $(window).on("scroll", function() {
+        if ($(this).scrollTop() > 50) {
+          $(".transparent-navbar").addClass("scrolled");
+        } else {
+          $(".transparent-navbar").removeClass("scrolled");
+        }
+      });
+    </script>
+
   </body>
 </html>
   

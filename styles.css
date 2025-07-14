@@ -1,26 +1,32 @@
 /* === Custom Navbar Styling === */
-.custom-navbar {
-    background-color: #2e1f1f; 
+.transparent-navbar {
+    background-color: transparent; 
     padding: 1rem 0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .custom-navbar .navbar-brand {
+  .transparent-navbar .navbar-brand {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 1.5rem;
     color: white;
   }
   
-  .custom-navbar .navbar-nav .nav-link {
+  .transparent-navbar .navbar-nav .nav-link {
     color: white;
     transition: color 0.2s ease;
   }
   
-  .custom-navbar .navbar-nav .nav-link:hover,
-  .custom-navbar .navbar-nav .nav-link:focus {
+  .transparent-navbar .navbar-nav .nav-link:hover,
+  .transparent-navbar .navbar-nav .nav-link:focus {
     color: #f4d35e; 
     text-decoration: underline;
   }
   
-  .custom-navbar .navbar-nav .nav-link:active {
+  .transparent-navbar .navbar-nav .nav-link:active {
     color: #ffc107; 
+  }
+
+  .transparent-navbar.scrolled {
+    background-color: #2e1f1f;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   }

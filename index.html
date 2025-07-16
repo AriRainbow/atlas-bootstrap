@@ -57,15 +57,34 @@
     </div>
   </section>
 
-<!-- Placeholder Section to Test Scroll -->
-    <section id="civilizations" class="py-5" style="background-color: #f8f9fa;">
-      <div class="container">
-        <h2 class="mb-4" style="font-family: 'Julius Sans One', sans-serif;">The First Civilizations</h2>
-        <p>The Sumerians are considered the first known civilization in human history. They developed writing, built massive ziggurats,
-           and created complex societal systems that influenced countless cultures to come.</p>
-        <p>Placeholder text with real content later.</p>
+  <!-- Civilizations Section with Dropdown -->
+  <section id="civilizations" class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+      <h2 class="mb-4" style="font-family: 'Julius Sans One', sans-serif;">The First Civilizations</h2>
+      
+      <!-- Civilization Dropdown -->
+      <div class="dropdown mb-4">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="civilizationDropdown"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false">
+          Select a Civilization
+        </button>
+        <div class="dropdown-menu" aria-labelledby="civilizationDropdown">
+          <a class="dropdown-item" href="#" data-value="Sumerians">Sumerians</a>
+          <a class="dropdown-item" href="#" data-value="Babylonians">Babylonians</a>
+          <a class="dropdown-item" href="#" data-value="Akkadians">Akkadians</a>
+        </div>
       </div>
-    </section>
+  
+      <!-- Additional Content -->
+      <p><strong>Explore how ancient civilizations developed systems of writing, built incredible architecture, and influenced the modern world.</strong></p>
+      <p>Select one of the civilizations above to begin your journey through time.</p>
+    </div>
+  </section>
 
     <!-- Single Carousel Section -->
   <section class="py-5 bg-light">
@@ -188,6 +207,15 @@
         } else {
           $(".transparent-navbar").removeClass("scrolled");
         }
+      });
+    </script>
+
+    <script>
+      // Handle dropdown selection
+      $('.dropdown-menu .dropdown-item').on('click', function (e) {
+        e.preventDefault(); // Prevent jump to top
+        const selectedText = $(this).data('value');
+        $('#civilizationDropdown').text(selectedText);
       });
     </script>
 

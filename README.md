@@ -71,10 +71,13 @@ _(Come back and add screenshots)_
 
 ## 🤖 Future Ideas
 
-- Add JS to dynamically change content based on dropdown  
-- Add animation or parallax scroll  
-- Use Bootstrap 5 or newer  
-- Convert to a multi-page or CMS-powered site
+- Add more in-depth content across civilizations
+- Improve and refine styling for a more polished look
+- Explore interactive features for better engagement
+- Continue enhancing accessibility and responsiveness
+- Add JavaScript to dynamically update content based on dropdown selection 
+- Upgrade to Bootstrap 5 or newer for enhanced capabilities  
+- Convert to a multi-page or CMS-powered site for easier content management
 
 ---
 

@@ -15,7 +15,6 @@ A responsive Bootstrap-based educational site exploring the mythologies, archite
 - [Sections Included](#-sections-included)
 - [Key Features](#-key-features)
 - [Accessibility](#-accessibility)
-- [Screenshots](#-screenshots)
 - [Future Ideas](#-future-ideas)
 - [Author](#-author)
 - [License](#-license)
@@ -65,12 +64,6 @@ A responsive Bootstrap-based educational site exploring the mythologies, archite
 - Semantic HTML: `<header>`, `<nav>`, `<section>`, `<aside>`, `<footer>`  
 - Alt text on images  
 - Screen-reader-friendly content where applicable
-
----
-
-## 📸 Screenshots
-
-_(Come back and add screenshots)_
 
 ---
 

@@ -4,6 +4,11 @@ A responsive Bootstrap-based educational site exploring the mythologies, archite
 
 ---
 
+### 🔗 Live Site  
+[Click here to view the live project on GitHub Pages](https://ariRainbow.github.io/atlas-bootstrap/)
+
+---
+
 ## 📑 Table of Contents
 
 - [Built With](#️-built-with)

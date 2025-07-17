@@ -14,7 +14,7 @@ A responsive Bootstrap-based educational site exploring the mythologies, archite
 - [Built With](#️-built-with)
 - [Sections Included](#-sections-included)
 - [Key Features](#-key-features)
-- [Accessibility](#-accessibility)
+- [Accessibility](#%EF%B8%8F-accessibility)
 - [Future Ideas](#-future-ideas)
 - [Author](#-author)
 - [License](#-license)
@@ -57,7 +57,7 @@ A responsive Bootstrap-based educational site exploring the mythologies, archite
 
 ---
 
-## Accessibility
+## ♿️ Accessibility
 
 - `aria-label` on hero section  
 - Keyboard navigation enabled with `tabindex="0"`  
